@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Modify CSS and HTML for IBM BPM Process Center",
+  "version": "1.0.0",
+  "description": "Change UI for IBM BPM Process Center to increase readibility and productivity",
+  "content_scripts": [
+    {
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://*/ProcessCenter/*",
+        "https://*/ProcessCenter/*"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
